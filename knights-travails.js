@@ -6,5 +6,7 @@
 // Track visited positions.
 // From every square, multiple moves are possible.
 // Use search algorithm to find the shortest path between the starting square (or node) and the ending square.
+// Each square = a node
+// Each legal knight move = an edge
 
-function knightsMoves(x, y) {};
+function knightsMoves(x, y) {}
