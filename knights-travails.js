@@ -18,9 +18,18 @@ function knightsMoves(start, end) {
     [-2, 1],
     [2, -1],
     [-1, 2],
-    [1, -2]
+    [1, -2],
   ];
+  // Generate a queue
   let queue = [start];
+  // Visited nodes
   let visited = new Set();
+  // Store visited values as strings
   visited.add(start.toString());
+
+  while (queue.length > 0) {
+
+    // Remove the first element of the queue (Dequeue)
+    const node = queue.shift();
+  }
 }
