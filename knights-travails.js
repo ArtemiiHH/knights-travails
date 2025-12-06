@@ -6,3 +6,5 @@
 // Track visited positions.
 // From every square, multiple moves are possible.
 // Use search algorithm to find the shortest path between the starting square (or node) and the ending square.
+
+function knightsMoves(x, y) {};
