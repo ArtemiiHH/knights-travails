@@ -10,8 +10,6 @@
 // Each legal knight move = an edge
 
 function knightsMoves(start, end) {
-  let queue = [start];
-  let visited = new Set();
   let possibleMoves = [
     [2, 1],
     [1, 2],
@@ -22,4 +20,7 @@ function knightsMoves(start, end) {
     [-1, 2],
     [1, -2]
   ];
+  let queue = [start];
+  let visited = new Set();
+  visited.add(start.toString());
 }
